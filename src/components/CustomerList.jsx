@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchCustomers } from '../features/customers/customerSlice';
 import Spinner from './Spinner';
-import { CgUser } from 'react-icons/cg';
-import { FaUserCircle } from 'react-icons/fa';
 import { CiUser } from 'react-icons/ci';
 
 const CustomerList = () => {
