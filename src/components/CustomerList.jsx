@@ -18,7 +18,7 @@ const CustomerList = () => {
       customer.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       customer.email.toLowerCase().includes(searchQuery.toLowerCase())
     )
-    .sort((a, b) => a.name.localeCompare(b.name)); // <-- A to Z sorting
+    .sort((a, b) => a.name.localeCompare(b.name)); 
 
 
   return (
