@@ -1,9 +1,10 @@
 import React from 'react'
+import CustomerList from './components/CustomerList'
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello my name is amit suthar</h1>
+    <div className=''>
+      <CustomerList />
     </div>
   )
 }
